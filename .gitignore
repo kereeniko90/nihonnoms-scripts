@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# Allow git to track .gitignore itself
+!.gitignore
+
+# Allow Assets/Scripts and its contents
+!/[Aa]ssets/
+!/[Aa]ssets/[Ss]cripts/
+!/[Aa]ssets/[Ss]cripts/**
+
+# Optionally allow meta files for Scripts
+!/[Aa]ssets/[Ss]cripts/*.meta
